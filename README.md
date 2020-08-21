@@ -1,6 +1,6 @@
 # EXPO-COMPLETE-GUIDE
 
-This project created using framewordk react native with expo library
+This project created using framework react native with expo library
 
 ## Getting Started
 
