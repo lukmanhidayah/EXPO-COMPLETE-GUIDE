@@ -12,6 +12,11 @@ export default function App() {
 
   //all functions on App's component
   const addGoalHandler = goalTitles => {
+    // goaltitles's length must greater than 0
+    if (goalTitles.length === 0) {
+      return;
+    }
+
     // arrow function in function before for guarantee the latest snapshoot before it then applies your state
     setCourseGoals(currentGoals => [...courseGoals, { id: Math.random().toString(), value: goalTitles }]);
     //hide modal after submit gaol's value
